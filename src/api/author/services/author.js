@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * demo service.
+ * author service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::demo.demo');
+module.exports = createCoreService('api::author.author');
